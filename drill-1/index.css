@@ -1,0 +1,43 @@
+/*
+    light gray background: #f8f9fa
+    1 header row box: #45484A
+    2 right column box: #D3D3D3
+    3 left column box: #D3D3D3
+    4 footer row box: #252422
+*/
+
+/*global values? bottom layer????? background-color: */
+
+body > div {
+    background-color: #f8f9fa;
+    position: fixed;
+    height: 800px;
+    width: 800px;
+}
+
+/* need something for fixed position and need div/parent class*/
+
+#box1 {
+    background-color: #45484a;
+    position: relative;
+    height: 200px;
+    width: 800px;
+}
+
+#box2 {
+    background-color: #d3d3d3;
+    flex-direction: column;
+}
+
+#box3 {
+    background-color: #d3d3d3;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #252422;
+    position: relative;
+    height: 75px;
+    width: 800px;
+    top: 800px;
+}
